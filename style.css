@@ -1,0 +1,41 @@
+.header {
+  font-size: 36px;
+  background-color: rgba(148, 136, 99, 0.7);
+  height: 100px;
+}
+
+.my {
+  color: rgb(41, 133, 136);
+  position: absolute;
+  top: 5%;
+}
+
+.anime {
+  color: rgb(134, 99, 99);
+  position: absolute;
+  top: 5%;
+  left: 3.8%;
+}
+
+.list {
+  color: rgb(42, 143, 146);
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+}
+
+.new-anime {
+  color: white;
+  background-color: rgb(120, 143, 135);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 2pc;
+  outline: none;
+  margin-bottom: 13px;
+}
+
+.card {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  border: black solid 1px;
+}

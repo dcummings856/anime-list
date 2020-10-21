@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyAnimeList</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="my">My</div>
+    <div class="anime">Anime</div>
+    <div class="list">List</div>
+  </div>
+
+  <div class="overlay" style="display: none">  
+    <form class="form">
+      <label for="title">Anime's Title</label>
+      <input type="text" id="title">
+      <label for="studio">Anime's Studio</label>
+      <input type="text" id="studio">
+      <label for="watched">Have you wathed this Anime? (Check for yes)</label>
+      <input type="checkbox" id="watched">
+      <div class="form-btns">
+        <button class="submit-btn" type="submit">Submit Anime</button>
+        <button class="cancel-btn" type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+  
+  <div class="library">
+    <h1 class="library-title">Anime List</h1>
+    <button class="new-anime">New</button>
+      <div class="empty-list" style="display: none">Nothing here yet.</div>
+  </div>
+  <div class="anime-list"></div>
+  <script src="script.js"></script>
+</body>
+</html>
