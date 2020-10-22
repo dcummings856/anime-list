@@ -2,27 +2,33 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background: linear-gradient(to bottom, rgba(147, 196, 167, 0.493), rgba(104, 87, 133, 0.493));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .header {
   font-size: 36px;
-  background-color: rgba(148, 136, 99, 0.7);
+  background-color: rgba(138, 120, 150, 0.7);
   height: 100px;
 }
 
 .my {
-  color: rgb(41, 133, 136);
+  color: rgb(32, 72, 73);
   position: absolute;
   top: 5%;
 }
 
 .anime {
-  color: rgb(134, 99, 99);
+  color: rgb(87, 94, 57);
   position: absolute;
   top: 5%;
   left: 3.8%;
 }
 
 .list {
-  color: rgb(42, 143, 146);
+  color: rgb(32, 72, 73);
   position: absolute;
   top: 5%;
   left: 10.5%;
@@ -37,13 +43,34 @@
   margin-bottom: 13px;
 }
 
+.library-title {
+  color: rgb(32, 72, 73);
+}
+
 .card {
-  color: white;
-  background-color: rgba(63, 66, 51, 0.603);
+  color: rgb(37, 28, 43);
+  background: linear-gradient(to left, rgba(84, 60, 97, 0.308), rgba(39, 78, 70, 0.555));
   font-size: 20px;
   position: relative;
-  margin-right: 1300px;
+  margin-right: 1350px;
   margin-bottom: 5px;
   margin-top: 5px;
+  padding-left: 7px;
   border: rgba(0, 0, 0, 0) solid 1px;
+  min-height: 26vh;
+  border-radius: 5%;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.26);
+}
+
+.list-name {
+  color: rgb(47, 61, 54);
+}
+
+.remove {
+  font-weight: bold;
+  color: rgb(219, 97, 97);
+  background-color: rgb(82, 37, 37);
+  cursor: pointer;
+  border-radius: 30%;
+  padding: 1px 4px;
 }
