@@ -2,6 +2,7 @@ const newBtn = document.querySelector(".new-anime");
 const form = document.querySelector(".form");
 const overlay = document.querySelector(".overlay");
 const animeList = document.querySelector(".anime-list");
+const cancelBtn = document.querySelector(".cancel-btn");
 
 
 let myLibrary = [];
@@ -57,4 +58,8 @@ form.addEventListener('submit', handleNewAnimeForm)
 
 newBtn.addEventListener('click', () => {
   overlay.style.display = "block";
+})
+
+cancelBtn.addEventListener('click', () => {
+  overlay.style.display = "none";
 })
