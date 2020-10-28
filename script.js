@@ -81,3 +81,5 @@ newBtn.addEventListener('click', () => {
 cancelBtn.addEventListener('click', () => {
   overlay.style.display = "none";
 })
+
+localStorage.getItem(myLibrary);
